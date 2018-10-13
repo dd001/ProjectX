@@ -2,12 +2,12 @@ package com.loststarventures.projectx.projectx.core;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import com.loststarventures.projectx.projectx.R;
-public class SplashActivity extends BaseActivity {
+
+public class HomeActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_home);
     }
 }
